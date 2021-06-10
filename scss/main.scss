@@ -19,25 +19,34 @@
 .profile {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: center;
     & img {
         width: 100px;
         height: 100px;
         border-radius: 50px;
+        margin: 0 2px;
     }
     &__info {
+        display: flex;
         margin: 0 25px;
         align-self: center;
+        align-items: space-between;
         & h2 {
             margin: 0;
         }
+        &-more {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+    &__options {
+        display: none;
     }
 }
 
-.video-list {
-    &__title {
-        text-align: center;
-    }
+.video-list-title {
+    text-align: center;
 }
 
 .video {
@@ -99,3 +108,4 @@
     }
 }
 
+@import "layout/tablet";

@@ -1,0 +1,36 @@
+@media (min-width:768px) {
+    .profile {
+        justify-content: space-between;
+        border-bottom: 1px solid #d4d9d6;
+        padding-bottom: 5px;
+        &__options {
+            display: block;
+            align-self: center;
+            justify-content: end;
+        }
+    }
+
+    .video {
+        width: 315px;
+    }
+    .row_1_tablet {
+        display: flex;
+        justify-content: center;
+
+    }
+    .row_2_tablet {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .row_3_tablet {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .row_4_tablet {
+        display: flex;
+        justify-content: center;
+        
+    }
+}
