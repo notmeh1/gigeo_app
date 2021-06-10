@@ -1,9 +1,16 @@
 @media (min-width:1024px) {
+    .bg_hero {
+        height: 250px;
+    }
     .profile {
         &__info {
+            margin: 0 75px;
             &-more {
                 margin-left: 1em;
             }
+        }
+        &__options {
+            margin: 0 75px
         }
     }
     .row_1_laptop {

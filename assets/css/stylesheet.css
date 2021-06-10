@@ -10755,16 +10755,24 @@ textarea.form-control-lg {
   padding: 0 0.75rem;
 }
 
+.flex-containerfluid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .profile {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 1em 0;
 }
 .profile img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  margin: 0 2px;
+  width: 75px;
+  height: 75px;
+  border-radius: 75px;
+  margin: 0 0.5em;
 }
 .profile__info {
   display: flex;
@@ -10803,6 +10811,7 @@ textarea.form-control-lg {
 
 .video-list-title {
   text-align: center;
+  margin: 1em 0;
 }
 
 .video {
@@ -10810,8 +10819,17 @@ textarea.form-control-lg {
   flex-direction: column;
   align-items: center;
 }
+.video__info {
+  margin-bottom: 1em;
+}
 .video__info-title {
+  font-size: 25px;
+  font-weight: bolder;
   margin: 0;
+}
+.video__info-views {
+  font-size: 15px;
+  color: #808080;
 }
 .video_1__img {
   background-image: url(../images/image-1.png);
@@ -10899,8 +10917,18 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 1024px) {
+  .bg_hero {
+    height: 250px;
+  }
+
+  .profile__info {
+    margin: 0 75px;
+  }
   .profile__info-more {
     margin-left: 1em;
+  }
+  .profile__options {
+    margin: 0 75px;
   }
 
   .row_1_laptop {
