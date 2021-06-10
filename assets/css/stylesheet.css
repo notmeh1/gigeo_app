@@ -10782,6 +10782,11 @@ textarea.form-control-lg {
 }
 .profile__info h2, .profile__info .h2 {
   margin: 0;
+  font-weight: bolder;
+}
+.profile__info p {
+  color: #808080;
+  font-size: 15px;
 }
 .profile__info-more {
   display: flex;

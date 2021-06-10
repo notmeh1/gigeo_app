@@ -41,6 +41,11 @@
         align-items: space-between;
         & h2 {
             margin: 0;
+            font-weight: bolder;
+        }
+        & p {
+            color: #808080;
+            font-size: 15px;
         }
         &-more {
             display: flex;
