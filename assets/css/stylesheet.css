@@ -10881,5 +10881,16 @@ textarea.form-control-lg {
     justify-content: center;
   }
 }
+@media (min-width: 1024px) {
+  .row_1_laptop {
+    display: flex;
+    justify-content: center;
+  }
+
+  .row_2_laptop {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 /*# sourceMappingURL=stylesheet.css.map */
