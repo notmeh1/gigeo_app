@@ -1,4 +1,11 @@
 @media (min-width:1024px) {
+    .profile {
+        &__info {
+            &-more {
+                margin-left: 1em;
+            }
+        }
+    }
     .row_1_laptop {
         display: flex;
         justify-content: center;

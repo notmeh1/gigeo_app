@@ -10784,6 +10784,23 @@ textarea.form-control-lg {
   display: none;
 }
 
+.btnmsg {
+  background-color: #92dbe5;
+  color: #ffffff;
+  border: 0;
+  width: 96px;
+  height: 45px;
+}
+
+.btnfollow {
+  background-color: #ef6361;
+  color: #ffffff;
+  border: 0;
+  width: 96px;
+  height: 45px;
+  margin-left: 0.5em;
+}
+
 .video-list-title {
   text-align: center;
 }
@@ -10882,6 +10899,10 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 1024px) {
+  .profile__info-more {
+    margin-left: 1em;
+  }
+
   .row_1_laptop {
     display: flex;
     justify-content: center;
